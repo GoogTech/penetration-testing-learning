@@ -15,12 +15,12 @@ eg: modify the dns configuration infos as follow,let it redirect to specified se
 ==============================================================================================
 microsoft.com			A		xxx.xxx.xxx.xxx (your service ip)
 .*microsoft.com			A		xxx.xxx.xxx.xxx
-www.microsoft.com		PRT  	xxx.xxx.xxx.xxx
+www.microsoft.com		PRT  	        xxx.xxx.xxx.xxx
 ----------------------------------------------------------------------------------------------
 ex: add the new configuration infos as follow if you want intercept all of websites
 ==============================================================================================
 *		A		xxx.xxx.xxx.xxx (your service ip)
-*		PTR 	xxx.xxx.xxx.xxx
+*		PTR 	        xxx.xxx.xxx.xxx
 ----------------------------------------------------------------------------------------------
 
 
